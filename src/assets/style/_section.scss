@@ -1,0 +1,43 @@
+.hero {
+    @include hero;
+}
+.container {
+    position: relative;
+    @include container;
+}
+.containerLogo{
+    display: flex;
+    justify-content: center;
+
+    .logo {
+        width: 136px;
+        height: 130px;
+        background-color: white;
+        text-align: center;
+        &__font5 {
+            font-family: $font-style;
+            color: black;
+            font-size: 1.5em;
+            padding-top: 15px;
+            &::after {
+                position: relative;
+                content: "";
+                background-color: black;
+                display: block;
+                width: 55px;
+                height: 1px;
+                left: 40px;
+            }
+        }
+        a{
+            text-decoration: none;
+        }
+        .font6 {
+            color: black;
+            font-size: 1em;
+            padding-top: 10px;
+        }
+        
+    }
+}
+

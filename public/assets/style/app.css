@@ -1,0 +1,146 @@
+.hero {
+  background-image: url(../images/bg-1.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow: hidden; }
+
+.containerLogo {
+  display: flex;
+  justify-content: center; }
+  .containerLogo .logo {
+    width: 136px;
+    height: 130px;
+    background-color: white;
+    text-align: center; }
+    .containerLogo .logo__font5 {
+      font-family: "Niconne", cursive;
+      color: black;
+      font-size: 1.5em;
+      padding-top: 15px; }
+      .containerLogo .logo__font5::after {
+        position: relative;
+        content: "";
+        background-color: black;
+        display: block;
+        width: 55px;
+        height: 1px;
+        left: 40px; }
+    .containerLogo .logo a {
+      text-decoration: none; }
+    .containerLogo .logo .font6 {
+      color: black;
+      font-size: 1em;
+      padding-top: 10px; }
+
+.containerText {
+  color: white;
+  display: flex;
+  justify-content: center; }
+
+.containerMenu {
+  padding-top: 20px;
+  padding-bottom: 80px; }
+  .containerMenu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; }
+    .containerMenu ul a {
+      text-decoration: none;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      padding: 10px; }
+      .containerMenu ul a:hover {
+        color: #a6e5f8;
+        transition: 0.4s ease-in-out; }
+
+.containerText {
+  padding-bottom: 80px; }
+  .containerText .fontText {
+    font-size: 100px;
+    text-align: center; }
+
+.containerOpacity {
+  width: 100%;
+  margin-bottom: 250px; }
+  .containerOpacity .inputs {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px; }
+    .containerOpacity .inputs__Check {
+      display: flex;
+      flex-direction: column; }
+      .containerOpacity .inputs__Check input[type=text] {
+        height: 23px; }
+    .containerOpacity .inputs__Numb {
+      display: flex;
+      flex-direction: column; }
+      .containerOpacity .inputs__Numb input[type=number] {
+        width: 70px;
+        height: 23px; }
+    .containerOpacity .inputs button {
+      width: 190px;
+      height: 30px;
+      margin-top: 16px;
+      color: white;
+      background-color: #069ec0; }
+
+.containerFooter {
+  display: flex;
+  flex-direction: column; }
+  .containerFooter picture {
+    display: flex;
+    justify-content: center; }
+    .containerFooter picture img {
+      width: 20px;
+      padding: 10px; }
+  .containerFooter .end {
+    text-align: center;
+    padding: 20px; }
+
+.containerInfo {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px; }
+  .containerInfo .info {
+    text-align: center; }
+    .containerInfo .info .style {
+      font-family: "Niconne", cursive; }
+    .containerInfo .info .border::after {
+      position: relative;
+      content: "";
+      background-color: black;
+      display: block;
+      width: 77px;
+      height: 1px;
+      left: 12px; }
+    .containerInfo .info .border1::after {
+      position: relative;
+      content: "";
+      background-color: black;
+      display: block;
+      width: 43px;
+      height: 1px;
+      left: 50px; }
+    .containerInfo .info .border2::after {
+      position: relative;
+      content: "";
+      background-color: black;
+      display: block;
+      width: 49px;
+      height: 1px;
+      left: 32px; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+

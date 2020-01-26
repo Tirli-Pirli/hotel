@@ -1,0 +1,60 @@
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    picture {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 20px;
+                padding: 10px;
+            }
+    }
+    .end {
+        text-align: center;
+        padding:20px
+    }
+}
+.containerInfo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    .info {
+        text-align: center;
+        .style {
+            font-family: $font-style;
+            }
+        .border {
+            &::after{
+                position: relative;
+                content: "";
+                background-color: black;
+                display: block;
+                width: 77px;
+                height: 1px;
+                left: 12px;
+            }
+        }
+        .border1 {
+            &::after{
+                position: relative;
+                content: "";
+                background-color: black;
+                display: block;
+                width: 43px;
+                height: 1px;
+                left: 50px;
+            }
+        }
+        .border2 {
+            &::after{
+                position: relative;
+                content: "";
+                background-color: black;
+                display: block;
+                width: 49px;
+                height: 1px;
+                left: 32px;
+            }
+        }
+    }
+}

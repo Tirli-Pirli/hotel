@@ -1,0 +1,32 @@
+.containerOpacity {
+    width: 100%;
+    margin-bottom: 250px;
+    .inputs {
+       display: flex;
+       justify-content: center;
+       justify-content: space-evenly;
+       padding: 10px;
+       &__Check {
+           display: flex;
+           flex-direction: column;
+           input[type=text] {
+               height: 23px;
+           }
+       }
+       &__Numb {
+           display: flex;
+           flex-direction: column;
+           input[type=number] {
+                width: 70px;
+                height: 23px;
+           }
+       }
+       button {
+        width: 190px;
+        height: 30px;
+        margin-top: 16px;
+        color: white;
+        background-color: rgba(6,158,192,1);
+       }
+    }
+}

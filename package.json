@@ -1,0 +1,37 @@
+{
+  "name": "test-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusmaliska/Test-Git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariusmaliska/Test-Git/issues"
+  },
+  "homepage": "https://github.com/mariusmaliska/Test-Git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "mini-css-extract-plugin": "^0.9.0",
+    "save-dev": "0.0.1-security"
+  }
+}

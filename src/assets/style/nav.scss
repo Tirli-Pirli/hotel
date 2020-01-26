@@ -1,0 +1,27 @@
+.containerMenu {
+    padding-top: 20px;
+    padding-bottom: 80px;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                padding:10px;
+                &:hover {
+                    color:rgb(166, 229, 248);
+                    transition: 0.4s ease-in-out;
+                }
+            }
+    }
+}
+.containerText {
+    padding-bottom: 80px;
+    .fontText {
+        font-size: 100px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,13 @@
+@mixin hero {
+    background-image: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+@mixin container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
