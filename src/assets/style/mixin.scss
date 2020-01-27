@@ -1,7 +1,8 @@
 @mixin hero {
-    background-image: url(../images/bg-1.jpg);
+    background-image: url(../images/bg3.jpg);
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 @mixin container {
     width: 100%;
@@ -10,4 +11,10 @@
     padding: 0 20px;
     box-sizing: border-box;
     overflow: hidden;
+}
+@mixin containerInside {
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
 }

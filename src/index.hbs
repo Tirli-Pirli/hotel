@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{htmlWebpackPlugin.options.title}}</title>
+    <link rel="stylesheet" href="assets/style/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+                {{> partials/logo}}
+
+            <div class="containerMenu">
+                    {{> partials/nav}}
+
+            </div>
+            <div class="containerText">
+                <div class="fontText">
+                    <p>TAKE A DEEP BREATH.</p>
+                </div>
+            </div>
+            <div class="containerOpacity">
+                <div class="inputs">
+                    <div class="inputs__Check">
+                        <label for="checkin">Check In</label>
+                        <input type="text" name="checkInDate" id="" placeholder="DD MM YYYY">
+                    </div>
+                    <div class="inputs__Check">
+                        <label for="checkout">Check Out</label>
+                        <input type="text" name="checkOutDate" id="" placeholder="DD MM YYYY">
+                    </div>
+                    <div class="inputs__Numb">
+                        <label for="adultNum">Adults</label>
+                        <input type="number" name="adults" id="" min="1">
+                    </div>
+                    <div class="inputs__Numb">
+                        <label for="kidsNum">Kids</label>
+                        <input type="number" name="kids" id="" min="1">
+                    </div>
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        {{> partials/footer}}
+    </section>
+    
+</body>
+</html>

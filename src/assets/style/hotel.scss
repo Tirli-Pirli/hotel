@@ -1,0 +1,38 @@
+.containerHotel {
+    width: 100%;
+    background-color: rgba(255,255,255,.8);
+    margin-bottom: 41px;
+    .contentHotel {
+        @include containerInside;
+    }
+    .nameFont {
+        font-family: $font-style;
+        font-size: 40px;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .dots1 {
+        border-top: 2px dotted darkgrey;
+        width: 63%;
+        
+    }
+    
+    .containerTxtImg {
+        display: flex;
+        .textStyle {
+        padding-top: 20px;
+        padding-bottom: 55px;
+        }
+        .rightImg {
+            padding-top:20px;
+        }
+    }
+    .dots2 {
+        border-top: 2px dotted darkgrey;
+        width: 83%;
+        margin: 0 auto;
+    }
+    
+}

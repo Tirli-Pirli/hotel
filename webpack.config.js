@@ -1,5 +1,8 @@
 const path = require('path');
+const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   entry: './src/index.js',
   mode: 'development',
@@ -25,10 +28,27 @@ module.exports = {
           outputPath:'assets/images',
           publicPath: '../images'
         },
-      }
+      },
+      { test: /\.hbs$/, loader: "handlebars-loader" }
     ],
   },
+  
   plugins: [
+    new webpack.LoaderOptionsPlugin({
+      options: {
+        handlebarsLoader: {}
+      }
+    }),
+    new HtmlWebpackPlugin({
+      title: 'index',
+      filename: 'index.html',
+      template: './src/index.hbs'
+    }),
+    new HtmlWebpackPlugin({
+      title: 'theHotel',
+      filename: 'theHotel.html',
+      template: './src/theHotel.hbs'
+    }),
     new MiniCssExtractPlugin({
         filename: 'assets/style/app.css',
     }),
