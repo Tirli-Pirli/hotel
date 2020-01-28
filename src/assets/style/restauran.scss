@@ -1,0 +1,35 @@
+.containerRest {
+    @include overlay;
+    .contentRest{
+        @include containerInside;
+        .nameFont {
+            @include textStyle;
+        }
+        .dots1 {
+            @include dotsAfterTextStyle;
+        }
+        .containerTxt{
+            display: flex;
+            justify-content: space-between;
+            .textStyle {
+                font-family:$font-hotelpage;
+                font-size: 14px;
+                width: 350px;
+                padding-bottom: 55px ;    
+            }
+        }
+        .dots2 {
+            border-top: $dots;
+            width: 100%;
+            
+        }
+        .imgbottom{
+            @include imgBottom;
+            .imgsize {
+                width: 185px;
+            }
+        }
+    }
+
+    
+}

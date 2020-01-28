@@ -17,4 +17,29 @@
     margin: 0 auto;
     box-sizing: border-box;
     width: 100%;
+    padding: 0 20px;
+}
+@mixin overlay {
+    width: 100%;
+    background-color: rgba(255,255,255,.8);
+    margin-bottom: 41px;
+}
+@mixin textStyle {
+        font-family: $font-style;
+        font-size: 40px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+}
+@mixin dotsAfterTextStyle {
+        border-top: 2px dotted darkgrey;
+        width: 63%;
+}
+@mixin imgBottom {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
 }

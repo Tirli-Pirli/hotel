@@ -49,6 +49,11 @@ module.exports = {
       filename: 'theHotel.html',
       template: './src/theHotel.hbs'
     }),
+    new HtmlWebpackPlugin({
+      title: 'restaurant',
+      filename: 'restaurant.html',
+      template: './src/restaurant.hbs'
+    }),
     new MiniCssExtractPlugin({
         filename: 'assets/style/app.css',
     }),

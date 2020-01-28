@@ -6,33 +6,40 @@
         @include containerInside;
     }
     .nameFont {
-        font-family: $font-style;
-        font-size: 40px;
-        padding-bottom: 20px;
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
+        @include textStyle;
     }
     .dots1 {
-        border-top: 2px dotted darkgrey;
-        width: 63%;
+        @include dotsAfterTextStyle;
         
     }
     
     .containerTxtImg {
         display: flex;
-        .textStyle {
         padding-top: 20px;
+        justify-content: space-between;
+        .textStyle {
         padding-bottom: 55px;
-        }
-        .rightImg {
-            padding-top:20px;
+        font-family:$font-hotelpage;
+        width: 330px;
+        font-size: 14px;
+
         }
     }
     .dots2 {
-        border-top: 2px dotted darkgrey;
-        width: 83%;
-        margin: 0 auto;
+        border-top: $dots;
+        width: 100%;
+    }
+    .imgbottom {
+        @include imgBottom;
+        .imgsize {
+            width: 185px;
+            cursor: pointer;
+        
+        }
     }
     
+}
+.imgsize:hover {
+    opacity: 0.5;
+    transition: 0.4s ease-in-out;
 }
