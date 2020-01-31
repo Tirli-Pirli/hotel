@@ -50,6 +50,16 @@ module.exports = {
       template: './src/theHotel.hbs'
     }),
     new HtmlWebpackPlugin({
+      title: 'theRooms',
+      filename: 'theRooms.html',
+      template: './src/theRooms.hbs'
+    }),
+    new HtmlWebpackPlugin({
+      title: 'contacts',
+      filename: 'contacts.html',
+      template: './src/contacts.hbs'
+    }),
+    new HtmlWebpackPlugin({
       title: 'restaurant',
       filename: 'restaurant.html',
       template: './src/restaurant.hbs'

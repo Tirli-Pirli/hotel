@@ -8,8 +8,13 @@
 @import "footer.scss";
 @import "hotel.scss";
 @import "restauran.scss";
+@import "theRooms.scss";
+@import "contact.scss";
 
 * {
     margin: 0px;
     padding: 0px;
 }
+@-ms-viewport{
+    width: device-width;
+  }

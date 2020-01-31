@@ -360,6 +360,30 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/assets/images/burgerfood.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/burgerfood.jpg ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/burgerfood.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/burgerfood.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/chairs.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/chairs.jpg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/chairs.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/chairs.jpg?");
+
+/***/ }),
+
 /***/ "./src/assets/images/facebook.svg":
 /*!****************************************!*\
   !*** ./src/assets/images/facebook.svg ***!
@@ -372,6 +396,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/assets/images/flake.svg":
+/*!*************************************!*\
+  !*** ./src/assets/images/flake.svg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/flake.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/flake.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/kitchen.svg":
+/*!***************************************!*\
+  !*** ./src/assets/images/kitchen.svg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/kitchen.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/kitchen.svg?");
+
+/***/ }),
+
 /***/ "./src/assets/images/mastercard.svg":
 /*!******************************************!*\
   !*** ./src/assets/images/mastercard.svg ***!
@@ -381,6 +429,186 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/mastercard.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/mastercard.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/minibar.svg":
+/*!***************************************!*\
+  !*** ./src/assets/images/minibar.svg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/minibar.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/minibar.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/palms.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/palms.jpg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/palms.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/palms.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/pencackes.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/pencackes.jpg ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/pencackes.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/pencackes.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/phone.svg":
+/*!*************************************!*\
+  !*** ./src/assets/images/phone.svg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/phone.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/phone.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/pi.jpg":
+/*!**********************************!*\
+  !*** ./src/assets/images/pi.jpg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/pi.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/pi.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/pillows.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/images/pillows.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/pillows.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/pillows.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/pizza.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/pizza.jpg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/pizza.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/pizza.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/room.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/room.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/room.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/room.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/safe.svg":
+/*!************************************!*\
+  !*** ./src/assets/images/safe.svg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/safe.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/safe.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/salads.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/salads.jpg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/salads.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/salads.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/superior.jpg":
+/*!****************************************!*\
+  !*** ./src/assets/images/superior.jpg ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/superior.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/superior.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/towel.svg":
+/*!*************************************!*\
+  !*** ./src/assets/images/towel.svg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/towel.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/towel.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/tub.svg":
+/*!***********************************!*\
+  !*** ./src/assets/images/tub.svg ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/tub.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/tub.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/tv.svg":
+/*!**********************************!*\
+  !*** ./src/assets/images/tv.svg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/tv.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/tv.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/wifi.svg":
+/*!************************************!*\
+  !*** ./src/assets/images/wifi.svg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../images/wifi.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/wifi.svg?");
 
 /***/ }),
 
@@ -414,7 +642,7 @@ eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtim
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_style_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/style/app.scss */ \"./src/assets/style/app.scss\");\n/* harmony import */ var _assets_style_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_style_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_images_facebook_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/facebook.svg */ \"./src/assets/images/facebook.svg\");\n/* harmony import */ var _assets_images_mastercard_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/mastercard.svg */ \"./src/assets/images/mastercard.svg\");\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.hbs */ \"./src/index.hbs\");\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_hbs__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _theHotel_hbs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./theHotel.hbs */ \"./src/theHotel.hbs\");\n/* harmony import */ var _theHotel_hbs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_theHotel_hbs__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _restaurant_hbs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./restaurant.hbs */ \"./src/restaurant.hbs\");\n/* harmony import */ var _restaurant_hbs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_restaurant_hbs__WEBPACK_IMPORTED_MODULE_5__);\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_style_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/style/app.scss */ \"./src/assets/style/app.scss\");\n/* harmony import */ var _assets_style_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_style_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _assets_images_facebook_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/facebook.svg */ \"./src/assets/images/facebook.svg\");\n/* harmony import */ var _assets_images_mastercard_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/mastercard.svg */ \"./src/assets/images/mastercard.svg\");\n/* harmony import */ var _assets_images_flake_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/flake.svg */ \"./src/assets/images/flake.svg\");\n/* harmony import */ var _assets_images_wifi_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/wifi.svg */ \"./src/assets/images/wifi.svg\");\n/* harmony import */ var _assets_images_tv_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/tv.svg */ \"./src/assets/images/tv.svg\");\n/* harmony import */ var _assets_images_safe_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/images/safe.svg */ \"./src/assets/images/safe.svg\");\n/* harmony import */ var _assets_images_minibar_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/images/minibar.svg */ \"./src/assets/images/minibar.svg\");\n/* harmony import */ var _assets_images_phone_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/images/phone.svg */ \"./src/assets/images/phone.svg\");\n/* harmony import */ var _assets_images_kitchen_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/images/kitchen.svg */ \"./src/assets/images/kitchen.svg\");\n/* harmony import */ var _assets_images_towel_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/images/towel.svg */ \"./src/assets/images/towel.svg\");\n/* harmony import */ var _assets_images_tub_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/images/tub.svg */ \"./src/assets/images/tub.svg\");\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./index.hbs */ \"./src/index.hbs\");\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_index_hbs__WEBPACK_IMPORTED_MODULE_12__);\n/* harmony import */ var _theHotel_hbs__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./theHotel.hbs */ \"./src/theHotel.hbs\");\n/* harmony import */ var _theHotel_hbs__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_theHotel_hbs__WEBPACK_IMPORTED_MODULE_13__);\n/* harmony import */ var _restaurant_hbs__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./restaurant.hbs */ \"./src/restaurant.hbs\");\n/* harmony import */ var _restaurant_hbs__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_restaurant_hbs__WEBPACK_IMPORTED_MODULE_14__);\n/* harmony import */ var _assets_images_pillows_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./assets/images/pillows.jpg */ \"./src/assets/images/pillows.jpg\");\n/* harmony import */ var _assets_images_pi_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./assets/images/pi.jpg */ \"./src/assets/images/pi.jpg\");\n/* harmony import */ var _assets_images_superior_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./assets/images/superior.jpg */ \"./src/assets/images/superior.jpg\");\n/* harmony import */ var _assets_images_pencackes_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./assets/images/pencackes.jpg */ \"./src/assets/images/pencackes.jpg\");\n/* harmony import */ var _assets_images_burgerfood_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./assets/images/burgerfood.jpg */ \"./src/assets/images/burgerfood.jpg\");\n/* harmony import */ var _assets_images_salads_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./assets/images/salads.jpg */ \"./src/assets/images/salads.jpg\");\n/* harmony import */ var _assets_images_pizza_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./assets/images/pizza.jpg */ \"./src/assets/images/pizza.jpg\");\n/* harmony import */ var _assets_images_chairs_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./assets/images/chairs.jpg */ \"./src/assets/images/chairs.jpg\");\n/* harmony import */ var _assets_images_room_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./assets/images/room.jpg */ \"./src/assets/images/room.jpg\");\n/* harmony import */ var _assets_images_palms_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./assets/images/palms.jpg */ \"./src/assets/images/palms.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -447,7 +675,7 @@ eval("var Handlebars = __webpack_require__(/*! ../../node_modules/handlebars/run
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var Handlebars = __webpack_require__(/*! ../../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    return \"<nav>\\r\\n                    <ul>\\r\\n                        <li>\\r\\n                            <a href=\\\"index.html\\\">Welcome</a>\\r\\n                        </li>\\r\\n                        <li>\\r\\n                            <a href=\\\"theHotel.html\\\">The Hotel</a>\\r\\n                        </li>\\r\\n                        <li>\\r\\n                            <a href=\\\"\\\">The Rooms</a>\\r\\n                        </li>\\r\\n                        <li>\\r\\n                            <a href=\\\"restaurant.html\\\">The Restaurant</a>\\r\\n                        </li>\\r\\n                        <li>\\r\\n                            <a href=\\\"\\\">Contact</a>\\r\\n                        </li>\\r\\n                    </ul>\\r\\n                </nav>\";\n},\"useData\":true});\n\n//# sourceURL=webpack:///./src/partials/nav.hbs?");
+eval("var Handlebars = __webpack_require__(/*! ../../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    return \"<nav>\\r\\n                    <ul>\\r\\n                        <li>\\r\\n                            <a href=\\\"index.html\\\">Welcome</a>\\r\\n                        </li>\\r\\n                        <li>\\r\\n                            <a href=\\\"theHotel.html\\\">The Hotel</a>\\r\\n                        </li>\\r\\n                        <li>\\r\\n                            <a href=\\\"theRooms.html\\\">The Rooms</a>\\r\\n                        </li>\\r\\n                        <li>\\r\\n                            <a href=\\\"restaurant.html\\\">The Restaurant</a>\\r\\n                        </li>\\r\\n                        <li>\\r\\n                            <a href=\\\"contacts.html\\\">Contact</a>\\r\\n                        </li>\\r\\n                    </ul>\\r\\n                </nav>\";\n},\"useData\":true});\n\n//# sourceURL=webpack:///./src/partials/nav.hbs?");
 
 /***/ }),
 
@@ -458,7 +686,7 @@ eval("var Handlebars = __webpack_require__(/*! ../../node_modules/handlebars/run
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\r\\n    <title>\"\n    + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,\"htmlWebpackPlugin\") : depth0)) != null ? lookupProperty(stack1,\"options\") : stack1)) != null ? lookupProperty(stack1,\"title\") : stack1), depth0))\n    + \"</title>\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"assets/style/app.css\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Niconne&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Open+Sans&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n</head>\\r\\n<body>\\r\\n\\r\\n    <section class=\\\"hero\\\">\\r\\n        <div class=\\\"container\\\">\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/logo.hbs */ \"./src/partials/logo.hbs\"),depth0,{\"name\":\"partials/logo\",\"data\":data,\"indent\":\"                \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"            <div class=\\\"containerMenu\\\">\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/nav.hbs */ \"./src/partials/nav.hbs\"),depth0,{\"name\":\"partials/nav\",\"data\":data,\"indent\":\"                \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"            </div>\\r\\n        \\r\\n            <div class=\\\"containerRest\\\">\\r\\n                <div class=\\\"contentRest\\\">\\r\\n                    <div class=\\\"nameFont\\\">\\r\\n                        <p>The Restaurant</p>\\r\\n                        <hr class=\\\"dots1\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"containerTxt\\\">\\r\\n                        <div class=\\\"textStyle\\\">\\r\\n                            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about <br><br>\\r\\n                            This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are. Tip: Add your own image by double clicking the image and clicking Change Image</p>\\r\\n                        </div>\\r\\n                        <div class=\\\"textStyle\\\">\\r\\n                            <p>At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all thanks to the support and feedback from users like you! Keep up to date with New Releases and what’s Coming Soon in Wixellaneous in Support. Feel free to tell us what you think and give us feedback in the Wix Forum. If you’d like to benefit from a professional designer’s touch, head to the Wix Arena and connect with one of our Wix Pro designers. Or if you need more help you can simply type your questions into the Support Forum and get instant answers. To keep up to date with everything Wix, including tips and things we think are cool, just head to the Wix Blog!</p>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <hr class=\\\"dots2\\\">\\r\\n                    <div class=\\\"imgbottom\\\">\\r\\n                        <picture >\\r\\n                            <img class=\\\"imgsize\\\" src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                        </picture>\\r\\n                        <picture>\\r\\n                            <img class=\\\"imgsize\\\" src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                        </picture>\\r\\n                        <picture>\\r\\n                            <img class=\\\"imgsize\\\" src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                        </picture>\\r\\n                        <picture>\\r\\n                            <img class=\\\"imgsize\\\" src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                        </picture>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n\\r\\n        \\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/footer.hbs */ \"./src/partials/footer.hbs\"),depth0,{\"name\":\"partials/footer\",\"data\":data,\"indent\":\"        \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"    </section>    \\r\\n    </body>\\r\\n</html>\";\n},\"usePartial\":true,\"useData\":true});\n\n//# sourceURL=webpack:///./src/restaurant.hbs?");
+eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\r\\n    <title>\"\n    + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,\"htmlWebpackPlugin\") : depth0)) != null ? lookupProperty(stack1,\"options\") : stack1)) != null ? lookupProperty(stack1,\"title\") : stack1), depth0))\n    + \"</title>\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"assets/style/app.css\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Niconne&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Open+Sans&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n</head>\\r\\n<body>\\r\\n\\r\\n    <section class=\\\"hero\\\">\\r\\n        <div class=\\\"container\\\">\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/logo.hbs */ \"./src/partials/logo.hbs\"),depth0,{\"name\":\"partials/logo\",\"data\":data,\"indent\":\"                \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"            <div class=\\\"containerMenu\\\">\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/nav.hbs */ \"./src/partials/nav.hbs\"),depth0,{\"name\":\"partials/nav\",\"data\":data,\"indent\":\"                \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"            </div>\\r\\n        \\r\\n            <div class=\\\"containerRest\\\">\\r\\n                <div class=\\\"contentRest\\\">\\r\\n                    <div class=\\\"nameFont\\\">\\r\\n                        <p>The Restaurant</p>\\r\\n                        <hr class=\\\"dots1\\\">\\r\\n                    </div>\\r\\n                    <div class=\\\"containerTxt\\\">\\r\\n                        <div class=\\\"textStyle\\\">\\r\\n                            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about <br><br>\\r\\n                            This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are. Tip: Add your own image by double clicking the image and clicking Change Image</p>\\r\\n                        </div>\\r\\n                        <div class=\\\"textStyle\\\">\\r\\n                            <p>At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all thanks to the support and feedback from users like you! Keep up to date with New Releases and what’s Coming Soon in Wixellaneous in Support. Feel free to tell us what you think and give us feedback in the Wix Forum. If you’d like to benefit from a professional designer’s touch, head to the Wix Arena and connect with one of our Wix Pro designers. Or if you need more help you can simply type your questions into the Support Forum and get instant answers. To keep up to date with everything Wix, including tips and things we think are cool, just head to the Wix Blog!</p>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <hr class=\\\"dots2\\\">\\r\\n                    <div class=\\\"imgbottom\\\">\\r\\n                        <picture >\\r\\n                            <img class=\\\"imgsize after\\\" src=\\\"assets/images/salads.jpg\\\" alt=\\\"img\\\">\\r\\n                            <p class=\\\"hovertxt\\\">I`m tasty</p>\\r\\n                        </picture>\\r\\n                        <picture>\\r\\n                            <img class=\\\"imgsize after\\\" src=\\\"assets/images/pencackes.jpg\\\" alt=\\\"img\\\">\\r\\n                            <p class=\\\"hovertxt\\\">I`m tasty</p>\\r\\n                        </picture>\\r\\n                        <picture>\\r\\n                            <img class=\\\"imgsize after\\\" src=\\\"assets/images/burgerfood.jpg\\\" alt=\\\"img\\\">\\r\\n                            <p class=\\\"hovertxt\\\">I`m tasty</p>\\r\\n                        </picture>\\r\\n                        <picture>\\r\\n                            <img class=\\\"imgsize after\\\" src=\\\"assets/images/pizza.jpg\\\" alt=\\\"img\\\">\\r\\n                            <p class=\\\"hovertxt\\\">I`m tasty</p>\\r\\n                        </picture>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n\\r\\n        \\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/footer.hbs */ \"./src/partials/footer.hbs\"),depth0,{\"name\":\"partials/footer\",\"data\":data,\"indent\":\"        \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"    </section>    \\r\\n    </body>\\r\\n</html>\";\n},\"usePartial\":true,\"useData\":true});\n\n//# sourceURL=webpack:///./src/restaurant.hbs?");
 
 /***/ }),
 
@@ -469,7 +697,7 @@ eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtim
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \" <!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\r\\n    <title>\"\n    + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,\"htmlWebpackPlugin\") : depth0)) != null ? lookupProperty(stack1,\"options\") : stack1)) != null ? lookupProperty(stack1,\"title\") : stack1), depth0))\n    + \"</title>\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"assets/style/app.css\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Niconne&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Open+Sans&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n</head>\\r\\n<body>\\r\\n    <section class=\\\"hero\\\">\\r\\n        <div class=\\\"container\\\">\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/logo.hbs */ \"./src/partials/logo.hbs\"),depth0,{\"name\":\"partials/logo\",\"data\":data,\"indent\":\"            \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"            <div class=\\\"containerMenu\\\">\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/nav.hbs */ \"./src/partials/nav.hbs\"),depth0,{\"name\":\"partials/nav\",\"data\":data,\"indent\":\"                \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"            </div>\\r\\n            <div class=\\\"containerHotel\\\">\\r\\n                <div class=\\\"contentHotel\\\">\\r\\n                <div class=\\\"nameFont\\\">\\r\\n                    <p>Ocean View Hotel</p>\\r\\n                    <hr class=\\\"dots1\\\">\\r\\n                </div>\\r\\n            <div class=\\\"containerTxtImg\\\">\\r\\n                <div class=\\\"textStyle\\\">\\r\\n                    <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about <br><br>\\r\\n                    This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are. Tip: Add your own image by double clicking the image and clicking Change Image</p>\\r\\n                </div>\\r\\n                <picture class=\\\"rightImg\\\">\\r\\n                    <img src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n            </div>\\r\\n            <hr class=\\\"dots2\\\">\\r\\n            <div class=\\\"imgbottom\\\">\\r\\n                <picture >\\r\\n                    <img class=\\\"imgsize\\\" src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n                <picture>\\r\\n                    <img class=\\\"imgsize\\\" src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n                <picture>\\r\\n                    <img class=\\\"imgsize\\\" src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n                <picture>\\r\\n                    <img class=\\\"imgsize\\\" src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n            </div>\\r\\n            </div>\\r\\n            </div>\\r\\n        </div>\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/footer.hbs */ \"./src/partials/footer.hbs\"),depth0,{\"name\":\"partials/footer\",\"data\":data,\"indent\":\"        \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"    </section>\\r\\n\\r\\n    \";\n},\"usePartial\":true,\"useData\":true});\n\n//# sourceURL=webpack:///./src/theHotel.hbs?");
+eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \" <!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\r\\n    <title>\"\n    + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,\"htmlWebpackPlugin\") : depth0)) != null ? lookupProperty(stack1,\"options\") : stack1)) != null ? lookupProperty(stack1,\"title\") : stack1), depth0))\n    + \"</title>\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"assets/style/app.css\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Niconne&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n    <link href=\\\"https://fonts.googleapis.com/css?family=Open+Sans&display=swap\\\" rel=\\\"stylesheet\\\">\\r\\n</head>\\r\\n<body>\\r\\n    <section class=\\\"hero\\\">\\r\\n        <div class=\\\"container\\\">\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/logo.hbs */ \"./src/partials/logo.hbs\"),depth0,{\"name\":\"partials/logo\",\"data\":data,\"indent\":\"            \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"            <div class=\\\"containerMenu\\\">\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/nav.hbs */ \"./src/partials/nav.hbs\"),depth0,{\"name\":\"partials/nav\",\"data\":data,\"indent\":\"                \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"            </div>\\r\\n            <div class=\\\"containerHotel\\\">\\r\\n                <div class=\\\"contentHotel\\\">\\r\\n                <div class=\\\"nameFont\\\">\\r\\n                    <p>Ocean View Hotel</p>\\r\\n                    <hr class=\\\"dots1\\\">\\r\\n                </div>\\r\\n            <div class=\\\"containerTxtImg\\\">\\r\\n                <div class=\\\"textStyle\\\">\\r\\n                    <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about <br><br>\\r\\n                    This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are. Tip: Add your own image by double clicking the image and clicking Change Image</p>\\r\\n                </div>\\r\\n                <picture class=\\\"rightImg\\\">\\r\\n                    <img src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n            </div>\\r\\n            <hr class=\\\"dots2\\\">\\r\\n            <div class=\\\"imgbottom\\\">\\r\\n                <picture >\\r\\n                    <img class=\\\"imgsize effect\\\" src=\\\"assets/images/chairs.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n                <picture>\\r\\n                    <img class=\\\"imgsize effect\\\" src=\\\"assets/images/swimpool.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n                <picture>\\r\\n                    <img class=\\\"imgsize effect\\\" src=\\\"assets/images/room.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n                <picture>\\r\\n                    <img class=\\\"imgsize effect\\\" src=\\\"assets/images/palms.jpg\\\" alt=\\\"img\\\">\\r\\n                </picture>\\r\\n            </div>\\r\\n            </div>\\r\\n            </div>\\r\\n        </div>\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/footer.hbs */ \"./src/partials/footer.hbs\"),depth0,{\"name\":\"partials/footer\",\"data\":data,\"indent\":\"        \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"    </section>\\r\\n\\r\\n    \";\n},\"usePartial\":true,\"useData\":true});\n\n//# sourceURL=webpack:///./src/theHotel.hbs?");
 
 /***/ })
 

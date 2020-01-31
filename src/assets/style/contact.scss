@@ -1,0 +1,62 @@
+.containerCont {
+    @include overlay;
+    .contentCont {
+        @include containerInside;
+        .dots2 {
+            @include dotsAfterTextStyle;
+            margin-bottom: 40px;
+        }
+        .form--map {
+            display: flex;
+            justify-content: space-between;
+            form {
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                input {
+                    width: 100%;
+                    padding-top: 6px;
+                    padding-left: 3px;
+                    padding-bottom: 8px;
+                    margin-bottom: 10px;
+                    box-sizing: border-box;
+                    border: 0px;
+                    &:hover {
+                        background-color: rgb(166, 229, 248);
+                        transition: 0.3s ease-in-out;
+                    }
+                    &:invalid {
+                        border: 1px solid red;
+                    }
+                }
+                .largeInput {
+                    padding-bottom: 100px;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        .subbtn {
+            text-align: center;
+            a{
+                text-decoration: none;
+                span {     
+                    font-family: $font-style;
+                    font-size: 30px;
+                    color: black;
+                    opacity: 0.8;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .nameFont {
+            @include textStyle;
+            .dots1 {
+                @include dotsAfterTextStyle;
+                width: 83%;
+            }
+        }
+        
+    }
+}

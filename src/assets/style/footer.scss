@@ -18,11 +18,11 @@
 .containerInfo {
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
     padding-bottom: 20px;
     .info {
         text-align: center;
         padding-top: 15px;
-        padding-left: 55px;
         .style {
             font-family: $font-style;
             }

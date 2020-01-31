@@ -10,6 +10,7 @@
     }
     .dots1 {
         @include dotsAfterTextStyle;
+        width: 63%;
         
     }
     
@@ -33,13 +34,14 @@
         @include imgBottom;
         .imgsize {
             width: 185px;
+            height: 135px;
             cursor: pointer;
         
         }
     }
     
 }
-.imgsize:hover {
+.effect:hover {
     opacity: 0.5;
     transition: 0.4s ease-in-out;
 }

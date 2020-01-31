@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{htmlWebpackPlugin.options.title}}</title>
+    <link rel="stylesheet" href="assets/style/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+                {{> partials/logo}}
+            <div class="containerMenu">
+                {{> partials/nav}}
+            </div>
+        
+            <div class="containerCont">
+                <div class="contentCont">
+                    <div class="nameFont">
+                        <p>Contact</p>
+                        <hr class="dots1">
+                    </div>
+                    <div class="containerPar">
+                        <div class="lefttxt">
+                            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+                        </div>
+                        <div class="righttxt">
+                            <div class="righttxt__address">
+                                <h4><span>​Ocean View Hotel</span></h4>
+                                <p>500 Terry Francois St.</p>
+                                <p>San Francisco, CA 94158</p>
+                            </div>
+                            <div class="righttxt__call">
+                                <h4>Call us to book</h4>
+                                <p>1-800-000-0000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="dots2">
+                    <div class="form--map">
+                        <form action="">
+                            <label for=""></label>
+                            <input type="text" name="firstnam" placeholder="Name">
+
+                            <label for=""></label>
+                            <input type="email" name="email" placeholder="Email">
+
+                            <label for=""></label>
+                            <input type="text" name="phone" placeholder="Phone">
+
+                            <label for=""></label>
+                            <input class="largeInput" type="text" name="message" placeholder="Type your message here...">
+                        </form>
+                        <div class="googlemap">
+                            <p>place for google map</p>
+                        </div>
+                    </div>
+                    <div class="subbtn">
+                        <a href="">
+                            <span>Submit</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{> partials/footer}}
+    </section>    
+    </body>
+</html>

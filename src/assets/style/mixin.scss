@@ -1,9 +1,11 @@
+// background image //
 @mixin hero {
     background-image: url(../images/bg3.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
+// main container //
 @mixin container {
     width: 100%;
     max-width: 1000px;
@@ -12,6 +14,7 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+//container inside overlay //
 @mixin containerInside {
     max-width: 800px;
     margin: 0 auto;
@@ -19,11 +22,14 @@
     width: 100%;
     padding: 0 20px;
 }
+// white overlay with opacity //
 @mixin overlay {
     width: 100%;
     background-color: rgba(255,255,255,.8);
     margin-bottom: 41px;
 }
+// paragraph style in every page // 
+
 @mixin textStyle {
         font-family: $font-style;
         font-size: 40px;
@@ -33,10 +39,15 @@
         align-items: baseline;
         justify-content: space-between;
 }
+// dots after text with main font //
+
 @mixin dotsAfterTextStyle {
         border-top: 2px dotted darkgrey;
-        width: 63%;
 }
+
+
+// restaurant and hotel pages //
+
 @mixin imgBottom {
         padding-top: 30px;
         padding-bottom: 20px;

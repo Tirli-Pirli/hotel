@@ -1,16 +1,3 @@
-@media (max-width: 830px) {
-  .containerHotel .containerTxtImg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px; }
-  .containerHotel .nameFont {
-    flex-direction: column; }
-    .containerHotel .nameFont p {
-      align-self: center; }
-    .containerHotel .nameFont hr {
-      width: 100%; } }
-
 .hero {
   background-image: url(../images/bg3.jpg);
   background-size: cover;
@@ -130,11 +117,11 @@
 .containerInfo {
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
   padding-bottom: 20px; }
   .containerInfo .info {
     text-align: center;
-    padding-top: 15px;
-    padding-left: 55px; }
+    padding-top: 15px; }
     .containerInfo .info .style {
       font-family: "Niconne", cursive; }
     .containerInfo .info .border::after {
@@ -202,9 +189,10 @@
     justify-content: space-between; }
     .containerHotel .imgbottom .imgsize {
       width: 185px;
+      height: 135px;
       cursor: pointer; }
 
-.imgsize:hover {
+.effect:hover {
   opacity: 0.5;
   transition: 0.4s ease-in-out; }
 
@@ -244,11 +232,167 @@
       padding-top: 30px;
       padding-bottom: 20px;
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      cursor: pointer; }
       .containerRest .contentRest .imgbottom .imgsize {
-        width: 185px; }
+        width: 185px;
+        height: 135px; }
+      .containerRest .contentRest .imgbottom picture {
+        position: relative;
+        display: flex; }
+        .containerRest .contentRest .imgbottom picture .hovertxt {
+          position: absolute;
+          opacity: 0;
+          color: white;
+          font-family: "Niconne", cursive;
+          top: 0;
+          bottom: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 30px;
+          background: rgba(0, 0, 0, 0.5);
+          width: 100%;
+          transition: 0.4s ease-in-out; }
+      .containerRest .contentRest .imgbottom picture:hover .hovertxt {
+        opacity: 1; }
+
+.containerRest {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 41px; }
+  .containerRest .contentRest {
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20px; }
+    .containerRest .contentRest .nameFont {
+      font-family: "Niconne", cursive;
+      font-size: 40px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between; }
+    .containerRest .contentRest .dots1room {
+      border-top: 2px dotted darkgrey;
+      width: 73%; }
+    .containerRest .contentRest .containerTxt .textStyle {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      padding-bottom: 35px; }
+  .containerRest .roomsTag {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px; }
+  .containerRest .lineBlue {
+    border: 1px solid #51d6f3;
+    width: 100%; }
+    .containerRest .lineBlue__padd {
+      margin-bottom: 5px; }
+  .containerRest .roomInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .containerRest .roomInfo .roomName__style {
+      width: 380px; }
+      .containerRest .roomInfo .roomName__style p, .containerRest .roomInfo .roomName__style li {
+        padding: 7px;
+        font-family: "Open Sans", sans-serif; }
+      .containerRest .roomInfo .roomName__style ul {
+        margin-left: 17px;
+        font-size: 12px; }
+      .containerRest .roomInfo .roomName__style .bigtxt {
+        font-size: 20px; }
+      .containerRest .roomInfo .roomName__style .smalltxt {
+        font-size: 12px; }
+      .containerRest .roomInfo .roomName__style img {
+        width: 25px;
+        height: 25px;
+        padding-right: 7px; }
+    .containerRest .roomInfo .roomPrice {
+      align-self: center; }
+      .containerRest .roomInfo .roomPrice__btn {
+        background-color: #069ec0;
+        color: white;
+        border: 0px;
+        padding: 10px;
+        width: 120px;
+        cursor: pointer; }
+      .containerRest .roomInfo .roomPrice__txtStyle {
+        font-family: "Open Sans", sans-serif;
+        text-align: center; }
+      .containerRest .roomInfo .roomPrice .size {
+        font-size: 12px; }
+      .containerRest .roomInfo .roomPrice .sizebig {
+        font-size: 1.7em; }
+
+.containerCont {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 41px; }
+  .containerCont .contentCont {
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20px; }
+    .containerCont .contentCont .dots2 {
+      border-top: 2px dotted darkgrey;
+      margin-bottom: 40px; }
+    .containerCont .contentCont .form--map {
+      display: flex;
+      justify-content: space-between; }
+      .containerCont .contentCont .form--map form {
+        display: flex;
+        flex-direction: column;
+        width: 400px; }
+        .containerCont .contentCont .form--map form input {
+          width: 100%;
+          padding-top: 6px;
+          padding-left: 3px;
+          padding-bottom: 8px;
+          margin-bottom: 10px;
+          box-sizing: border-box;
+          border: 0px; }
+          .containerCont .contentCont .form--map form input:hover {
+            background-color: #a6e5f8;
+            transition: 0.3s ease-in-out; }
+          .containerCont .contentCont .form--map form input:invalid {
+            border: 1px solid red; }
+        .containerCont .contentCont .form--map form .largeInput {
+          padding-bottom: 100px;
+          box-sizing: border-box; }
+    .containerCont .contentCont .subbtn {
+      text-align: center; }
+      .containerCont .contentCont .subbtn a {
+        text-decoration: none; }
+        .containerCont .contentCont .subbtn a span {
+          font-family: "Niconne", cursive;
+          font-size: 30px;
+          color: black;
+          opacity: 0.8; }
+          .containerCont .contentCont .subbtn a span:hover {
+            opacity: 1; }
+    .containerCont .contentCont .nameFont {
+      font-family: "Niconne", cursive;
+      font-size: 40px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between; }
+      .containerCont .contentCont .nameFont .dots1 {
+        border-top: 2px dotted darkgrey;
+        width: 83%; }
 
 * {
   margin: 0px;
   padding: 0px; }
+
+@-ms-viewport {
+  width: device-width; }
 
