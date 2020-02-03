@@ -80,7 +80,7 @@
   opacity: 0;
   visibility: hidden;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-top: 20px;
   background: #2a2a2a;
   transition: 0.7s ease-in-out; }
@@ -177,7 +177,17 @@
         background-color: #069ec0;
         border: 0px;
         width: 160px;
+        height: 25px;
         cursor: pointer; }
+
+@media (max-width: 960px) {
+  .inputs {
+    flex-direction: column; }
+    .inputs .btn {
+      justify-content: center; }
+    .inputs label {
+      padding-bottom: 10px;
+      padding-top: 10px; } }
 
 @media (max-width: 600px) {
   .containerOpacity {
@@ -216,41 +226,43 @@
     text-align: center;
     padding-top: 15px; }
     .containerInfo .info .style {
-      font-family: "Niconne", cursive; }
-    .containerInfo .info .border::after {
-      position: relative;
-      content: "";
-      background-color: black;
-      display: block;
-      width: 77px;
-      height: 1px;
-      left: 12px; }
-    .containerInfo .info .border1::after {
-      position: relative;
-      content: "";
-      background-color: black;
-      display: block;
-      width: 43px;
-      height: 1px;
-      left: 50px; }
-    .containerInfo .info .border2::after {
-      position: relative;
-      content: "";
-      background-color: black;
-      display: block;
-      width: 49px;
-      height: 1px;
-      left: 32px; }
+      font-family: "Niconne", cursive;
+      display: flex;
+      justify-content: center; }
+    .containerInfo .info .border {
+      position: relative; }
+      .containerInfo .info .border::after {
+        position: absolute;
+        content: "";
+        background-color: black;
+        display: block;
+        width: 77px;
+        height: 1px;
+        bottom: 0; }
+    .containerInfo .info .border1 {
+      position: relative; }
+      .containerInfo .info .border1::after {
+        position: absolute;
+        content: "";
+        background-color: black;
+        display: block;
+        width: 43px;
+        height: 1px;
+        bottom: 0; }
+    .containerInfo .info .border2 {
+      position: relative; }
+      .containerInfo .info .border2::after {
+        position: absolute;
+        content: "";
+        background-color: black;
+        display: block;
+        width: 49px;
+        height: 1px;
+        bottom: 0; }
 
 @media (max-width: 600px) {
   .containerInfo {
-    flex-direction: column; }
-    .containerInfo .info .border::after {
-      left: 122px; }
-    .containerInfo .info .border1::after {
-      left: 139px; }
-    .containerInfo .info .border2::after {
-      left: 136px; } }
+    flex-direction: column; } }
 
 .containerHotel {
   width: 100%;

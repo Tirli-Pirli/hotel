@@ -25,38 +25,43 @@
         padding-top: 15px;
         .style {
             font-family: $font-style;
+            display: flex;
+            justify-content: center;
             }
         .border {
+            position: relative;
             &::after{
-                position: relative;
+                position: absolute;
                 content: "";
                 background-color: black;
                 display: block;
                 width: 77px;
                 height: 1px;
-                left: 12px;
+                bottom: 0;
             }
         }
         .border1 {
+            position: relative;
             &::after{
-                position: relative;
+                position: absolute;
                 content: "";
                 background-color: black;
                 display: block;
                 width: 43px;
                 height: 1px;
-                left: 50px;
+                bottom: 0;
             }
         }
         .border2 {
+            position: relative;
             &::after{
-                position: relative;
+                position: absolute;
                 content: "";
                 background-color: black;
                 display: block;
                 width: 49px;
                 height: 1px;
-                left: 32px;
+                bottom: 0;
             }
         }
     }
@@ -64,16 +69,5 @@
 @media (max-width:600px) {
     .containerInfo {
         flex-direction: column;
-        .info {
-            .border::after {
-                left: 122px;
-            }
-            .border1::after {
-                left: 139px;
-            }
-            .border2::after {
-                left: 136px;
-            }
-        }
     }
 }

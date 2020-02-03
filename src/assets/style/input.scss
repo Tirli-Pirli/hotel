@@ -43,9 +43,22 @@
             background-color: rgba(6,158,192,1);
             border: 0px;
             width: 160px;
+            height: 25px;
             cursor: pointer;
            }
        }
+    }
+}
+@media (max-width:960px) {
+    .inputs {
+        flex-direction: column;
+        .btn {
+            justify-content: center;
+        }
+        label {
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
     }
 }
 @media (max-width:600px) {
