@@ -24,7 +24,7 @@ import './assets/images/chairs.jpg';
 import './assets/images/room.jpg';
 import './assets/images/palms.jpg';
 import './assets/images/newmnu.svg';
-import './assets/images/bg-66.jpg'
+
 
 
 
