@@ -1,5 +1,32 @@
+@media (max-width: 960px) {
+  .inputs {
+    flex-direction: column; }
+    .inputs .btn {
+      justify-content: center; }
+    .inputs label {
+      padding-bottom: 10px;
+      padding-top: 10px; } }
+
+@media (max-width: 600px) {
+  .containerOpacity {
+    margin-bottom: 50px; }
+    .containerOpacity .inputs {
+      flex-direction: column; }
+      .containerOpacity .inputs__Check label {
+        padding-bottom: 10px;
+        padding-top: 10px; }
+      .containerOpacity .inputs__Numb label {
+        padding-bottom: 10px;
+        padding-top: 10px; }
+    .containerOpacity .btn {
+      align-self: center; } }
+
+@media (max-width: 600px) {
+  .containerInfo {
+    flex-direction: column; } }
+
 .hero {
-  background-image: url(../images/bg-66.jpg);
+  background-image: url(../images/bg3.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative; }
