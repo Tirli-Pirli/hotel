@@ -61,3 +61,19 @@
         }
     }
 }
+@media (max-width:600px) {
+    .containerInfo {
+        flex-direction: column;
+        .info {
+            .border::after {
+                left: 122px;
+            }
+            .border1::after {
+                left: 139px;
+            }
+            .border2::after {
+                left: 136px;
+            }
+        }
+    }
+}

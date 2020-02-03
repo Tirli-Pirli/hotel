@@ -13,7 +13,8 @@
             .textStyle {
                 font-family:$font-hotelpage;
                 font-size: 14px;
-                padding-bottom: 35px ;    
+                padding-bottom: 35px ;
+                width: 100%;   
             }
         }
     }
@@ -27,6 +28,11 @@
         width: 100%;
         &__padd {
                 margin-bottom: 5px;
+        }
+    }
+    .padding--pic {
+        img {
+            padding-top: 5px;
         }
     }
     

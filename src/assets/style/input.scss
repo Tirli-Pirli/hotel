@@ -10,18 +10,29 @@
        &__Check {
            display: flex;
            flex-direction: column;
+           input {
+               border: 0px;
+           }
            input[type=text] {
                height: 23px;
-               width: 100%;
                padding-left: 10px;
+           }
+           label {
+               font-family: $font-hotelpage;
            }
        }
        &__Numb {
            display: flex;
            flex-direction: column;
+           input {
+               border: 0px;
+           }
            input[type=number] {
-                width: 100%;
                 height: 23px;
+                padding-left: 10px;
+           }
+           label {
+            font-family: $font-hotelpage;
            }
        }
        .btn {
@@ -31,7 +42,34 @@
             color: white;
             background-color: rgba(6,158,192,1);
             border: 0px;
+            width: 160px;
+            cursor: pointer;
            }
        }
     }
+}
+@media (max-width:600px) {
+    .containerOpacity {
+        margin-bottom: 50px;
+        .inputs {
+        flex-direction: column;
+            &__Check {
+                label {
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                }
+            }
+            &__Numb {
+                label {
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                }
+            }
+        }
+        .btn {
+        align-self: center;
+
+        }
+    }
+    
 }

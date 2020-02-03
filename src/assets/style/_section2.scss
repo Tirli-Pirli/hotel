@@ -4,3 +4,13 @@
     justify-content: center;
     font-family:$font-hotelpage;
 }
+@media (max-width: 550px) {
+    .container {
+        .containerText {
+        .fontText {
+            font-size: 70px;
+        }
+    }
+    }
+    
+}

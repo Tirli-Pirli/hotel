@@ -23,5 +23,14 @@ import './assets/images/pizza.jpg';
 import './assets/images/chairs.jpg';
 import './assets/images/room.jpg';
 import './assets/images/palms.jpg';
+import './assets/images/newmnu.svg';
+
+function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(51.508742,-0.120850),
+      zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
 
 
