@@ -18,12 +18,13 @@
         display: flex;
         padding-top: 20px;
         justify-content: space-between;
-        .textStyle {
-        padding-bottom: 55px;
-        font-family:$font-hotelpage;
-        width: 330px;
-        font-size: 14px;
-
+        flex-wrap: wrap;
+            .textStyle {
+                padding-bottom: 55px;
+                font-family:$font-hotelpage;
+                max-width: 330px;
+                font-size: 14px;
+                text-align: center;
         }
     }
     .dots2 {
