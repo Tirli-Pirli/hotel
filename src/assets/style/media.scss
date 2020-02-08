@@ -1,42 +1,86 @@
 //input media // 
 
 @media (max-width:960px) {
-    .inputs {
+    .container {
+        display: flex;
         flex-direction: column;
-        .btn {
-            justify-content: center;
-        }
-        label {
-            padding-bottom: 10px;
-            padding-top: 10px;
+        .containerOpacity {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            padding-top: 15px;
+            .checkin {
+                background-color: white;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                text-align: center;
+                border-radius: 3px 3px 0px 0px;
+                font-size: 12px;
+            }
+            .inputs{
+                flex-direction: row;
+                justify-content: space-between;
+                width: 58%;
+                input {
+                    border-top: 1px solid rgba(6,158,192,1) ;
+                    border-bottom: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    border-radius: 0px 0px 3px 3px;
+                }
+                input[type=text] {
+                    width: 100px;
+                    height: 50px;
+                }
+            }
+            .inputs2 {
+                flex-direction: column;
+                width: 58%;
+                padding-top: 10px;
+                &__Numb {
+                    flex-direction: row;
+                    padding-bottom: 5px;
+                    .checkout {
+                        background-color: white;
+                        width: 100%;
+                        align-self: center;
+                        padding: 8px;
+                        font-size: 12px;
+                    }
+                    input[type=number] {
+                        width: 100%;
+                        border: 0;
+                    }
+                }
+            }
+            .btn {
+                align-self: center;
+                width: 100%;
+                padding-bottom: 10px;
+                button {
+                    width: 100%;
+                    margin-top: 10px;
+                }
+            }
         }
     }
 }
-@media (max-width:600px) {
-    .containerOpacity {
-        margin-bottom: 50px;
-        .inputs {
-        flex-direction: column;
-            &__Check {
-                label {
-                    padding-bottom: 10px;
-                    padding-top: 10px;
-                }
+@media (max-width:320px), (max-width:370px), (max-width:420px)   {
+    .container {
+        .containerOpacity {
+            width: 78%;
+            .inputs {
+                width: 92%;
             }
-            &__Numb {
-                label {
-                    padding-bottom: 10px;
-                    padding-top: 10px;
-                }
+            .inputs2 {
+                width: 92%;
             }
         }
-        .btn {
-        align-self: center;
+    }
+}
 
-        }
-    }
-    
-}
 
 // footer media //
 @media (max-width:800px) {

@@ -1,51 +1,60 @@
 .containerOpacity {
     width: 100%;
     margin-bottom: 250px;
+    background-color:rgba(255, 255, 255, 0.5);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     .inputs {
-       display: flex;
-       justify-content: center;
-       justify-content: space-evenly;
-       padding: 10px;
-       background-color:rgba(255, 255, 255, 0.5);
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
        &__Check {
            display: flex;
            flex-direction: column;
            input {
-               border: 0px;
+                border: 1px solid rgba(6,158,192,1);
            }
            input[type=text] {
-               height: 23px;
+               height: 30px;
                padding-left: 10px;
            }
            label {
                font-family: $font-hotelpage;
            }
        }
-       &__Numb {
+    }
+    .inputs2 {
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+        &__Numb {
            display: flex;
            flex-direction: column;
            input {
-               border: 0px;
+                border: 1px solid rgba(6,158,192,1);
            }
            input[type=number] {
-                height: 23px;
+                height: 30px;
+                width: 60px;
                 padding-left: 10px;
            }
            label {
             font-family: $font-hotelpage;
            }
        }
+    }   
        .btn {
            display: flex;
            button {
             margin-top: 18px;
             color: white;
             background-color: rgba(6,158,192,1);
-            border: 0px;
+            border: 0;
             width: 160px;
-            height: 25px;
+            height: 30px;
             cursor: pointer;
            }
-       }
-    }
+        } 
 }

@@ -1,25 +1,65 @@
 @media (max-width: 960px) {
-  .inputs {
+  .container {
+    display: flex;
     flex-direction: column; }
-    .inputs .btn {
-      justify-content: center; }
-    .inputs label {
-      padding-bottom: 10px;
-      padding-top: 10px; } }
+    .container .containerOpacity {
+      width: 60%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      padding-top: 15px; }
+      .container .containerOpacity .checkin {
+        background-color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-radius: 3px 3px 0px 0px;
+        font-size: 12px; }
+      .container .containerOpacity .inputs {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 58%; }
+        .container .containerOpacity .inputs input {
+          border-top: 1px solid #069ec0;
+          border-bottom: 0;
+          border-left: 0;
+          border-right: 0;
+          border-radius: 0px 0px 3px 3px; }
+        .container .containerOpacity .inputs input[type=text] {
+          width: 100px;
+          height: 50px; }
+      .container .containerOpacity .inputs2 {
+        flex-direction: column;
+        width: 58%;
+        padding-top: 10px; }
+        .container .containerOpacity .inputs2__Numb {
+          flex-direction: row;
+          padding-bottom: 5px; }
+          .container .containerOpacity .inputs2__Numb .checkout {
+            background-color: white;
+            width: 100%;
+            align-self: center;
+            padding: 8px;
+            font-size: 12px; }
+          .container .containerOpacity .inputs2__Numb input[type=number] {
+            width: 100%;
+            border: 0; }
+      .container .containerOpacity .btn {
+        align-self: center;
+        width: 100%;
+        padding-bottom: 10px; }
+        .container .containerOpacity .btn button {
+          width: 100%;
+          margin-top: 10px; } }
 
-@media (max-width: 600px) {
-  .containerOpacity {
-    margin-bottom: 50px; }
-    .containerOpacity .inputs {
-      flex-direction: column; }
-      .containerOpacity .inputs__Check label {
-        padding-bottom: 10px;
-        padding-top: 10px; }
-      .containerOpacity .inputs__Numb label {
-        padding-bottom: 10px;
-        padding-top: 10px; }
-    .containerOpacity .btn {
-      align-self: center; } }
+@media (max-width: 320px), (max-width: 370px), (max-width: 420px) {
+  .container .containerOpacity {
+    width: 78%; }
+    .container .containerOpacity .inputs {
+      width: 92%; }
+    .container .containerOpacity .inputs2 {
+      width: 92%; } }
 
 @media (max-width: 800px) {
   .containerInfo {
@@ -267,43 +307,51 @@
 
 .containerOpacity {
   width: 100%;
-  margin-bottom: 250px; }
+  margin-bottom: 250px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
   .containerOpacity .inputs {
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5); }
+    width: 50%; }
     .containerOpacity .inputs__Check {
       display: flex;
       flex-direction: column; }
       .containerOpacity .inputs__Check input {
-        border: 0px; }
+        border: 1px solid #069ec0; }
       .containerOpacity .inputs__Check input[type=text] {
-        height: 23px;
+        height: 30px;
         padding-left: 10px; }
       .containerOpacity .inputs__Check label {
         font-family: "Open Sans", sans-serif; }
-    .containerOpacity .inputs__Numb {
+  .containerOpacity .inputs2 {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly; }
+    .containerOpacity .inputs2__Numb {
       display: flex;
       flex-direction: column; }
-      .containerOpacity .inputs__Numb input {
-        border: 0px; }
-      .containerOpacity .inputs__Numb input[type=number] {
-        height: 23px;
+      .containerOpacity .inputs2__Numb input {
+        border: 1px solid #069ec0; }
+      .containerOpacity .inputs2__Numb input[type=number] {
+        height: 30px;
+        width: 60px;
         padding-left: 10px; }
-      .containerOpacity .inputs__Numb label {
+      .containerOpacity .inputs2__Numb label {
         font-family: "Open Sans", sans-serif; }
-    .containerOpacity .inputs .btn {
-      display: flex; }
-      .containerOpacity .inputs .btn button {
-        margin-top: 18px;
-        color: white;
-        background-color: #069ec0;
-        border: 0px;
-        width: 160px;
-        height: 25px;
-        cursor: pointer; }
+  .containerOpacity .btn {
+    display: flex; }
+    .containerOpacity .btn button {
+      margin-top: 18px;
+      color: white;
+      background-color: #069ec0;
+      border: 0;
+      width: 160px;
+      height: 30px;
+      cursor: pointer; }
 
 .containerFooter {
   display: flex;
