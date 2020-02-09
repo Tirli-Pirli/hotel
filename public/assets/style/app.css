@@ -70,10 +70,7 @@
     flex-direction: column;
     align-items: center; }
   .containerHotel .contentHotel .containerTxtImg {
-    justify-content: center; }
-  .containerHotel .contentHotel .imgbottom {
-    flex-direction: column;
-    align-items: center; } }
+    justify-content: center; } }
 
 @media (max-width: 600px) {
   .containerHotel .contentHotel .nameFont {
@@ -89,20 +86,16 @@
       align-self: center; }
       .containerHotel .contentHotel .containerTxtImg .rightImg img {
         width: 370px;
-        margin-bottom: 10px; }
-  .containerHotel .contentHotel .imgbottom {
-    flex-wrap: wrap; }
-    .containerHotel .contentHotel .imgbottom .imgsize {
-      margin-right: 5px; } }
+        margin-bottom: 10px; } }
 
-@media (max-width: 320px), (max-width: 390px) {
+@media (max-width: 320px), (max-width: 390px), (max-width: 440px) {
   .containerHotel .contentHotel .containerTxtImg .rightImg {
     align-self: center; }
     .containerHotel .contentHotel .containerTxtImg .rightImg img {
       width: 280px; }
-  .containerHotel .contentHotel .imgbottom {
-    justify-content: center;
-    padding-bottom: 5px; } }
+  .containerHotel .contentHotel .imgbottom .swiper-slide {
+    display: flex;
+    justify-content: center; } }
 
 @media (max-width: 890px) {
   .container .containerRoom .contentRoom .nameFont {
@@ -450,10 +443,12 @@
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between; }
-    .containerHotel .imgbottom .imgsize {
-      width: 185px;
-      height: 135px;
-      cursor: pointer; }
+    .containerHotel .imgbottom .swiper-slide {
+      margin: 0px; }
+      .containerHotel .imgbottom .swiper-slide img {
+        width: 200px;
+        height: 130px;
+        margin: 0px; }
 
 .effect:hover {
   opacity: 0.5;

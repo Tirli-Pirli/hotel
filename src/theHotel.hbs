@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/style/app.css">
     <link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 </head>
 <body>
     <section class="hero">
@@ -33,23 +34,45 @@
             </div>
             <hr class="dots2">
             <div class="imgbottom">
-                <picture >
-                    <img class="imgsize effect" src="assets/images/chairs.jpg" alt="img">
-                </picture>
-                <picture>
-                    <img class="imgsize effect" src="assets/images/swimpool.jpg" alt="img">
-                </picture>
-                <picture>
-                    <img class="imgsize effect" src="assets/images/room.jpg" alt="img">
-                </picture>
-                <picture>
-                    <img class="imgsize effect" src="assets/images/palms.jpg" alt="img">
-                </picture>
+                <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="assets/images/chairs.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/palms.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/swimpool.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/room.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/chairs.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/palms.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/swimpool.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/room.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
             </div>
             </div>
             </div>
         </div>
         {{> partials/footer}}
     </section>
-
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+</body>
+</html>
     

@@ -33,13 +33,15 @@
     }
     .imgbottom {
         @include imgBottom;
-        .imgsize {
-            width: 185px;
-            height: 135px;
-            cursor: pointer;
-        
+            .swiper-slide {
+                margin: 0px;
+                img {
+                    width: 200px;
+                    height: 130px;
+                    margin: 0px;
+                    }
+                }
         }
-    }
     
 }
 .effect:hover {
