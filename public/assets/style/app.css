@@ -71,7 +71,8 @@
 
 @media (max-width: 320px), (max-width: 370px), (max-width: 420px) {
   .container .containerOpacity {
-    width: 78%; }
+    width: 78%;
+    margin-bottom: 30px; }
     .container .containerOpacity .inputs {
       width: 92%; }
     .container .containerOpacity .inputs2 {
