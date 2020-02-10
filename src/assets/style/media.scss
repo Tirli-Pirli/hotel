@@ -1,5 +1,13 @@
 //input media // 
-
+@media (max-width:1060px) {
+    .container {
+        .containerOpacity {
+            .inputs {
+                width: 60%;
+            }
+        }
+    }
+}
 @media (max-width:960px) {
     .container {
         display: flex;
@@ -22,7 +30,7 @@
             .inputs{
                 flex-direction: row;
                 justify-content: space-between;
-                width: 58%;
+                width: 73%;
                 input {
                     border-top: 1px solid rgba(6,158,192,1) ;
                     border-bottom: 0;
@@ -66,6 +74,27 @@
             }
         }
     }
+}
+
+@media (max-width:560px) {
+    .container {
+        .containerOpacity {
+            width: 61%;
+            .inputs {
+                width: 72%;
+            }
+        }
+    }      
+}
+@media (max-width:520px) {
+    .container {
+        .containerOpacity {
+            width: 72%;
+            .inputs {
+                width: 72%;
+            }
+        }
+    }      
 }
 @media (max-width:320px), (max-width:370px), (max-width:420px)   {
     .container {
@@ -198,7 +227,6 @@
                     text-align: center;
                 }
                 .imgbottom {
-                    flex-direction: column;
                     align-items: center;
                     .imgsize {
                         padding-bottom: 10px;
@@ -246,9 +274,10 @@
                 .form--map {
                     flex-direction: column;
                     align-items: center;
-                    form {
+                    form, iframe {
                         width: 300px;
                     }
+
                 }
             }
         }

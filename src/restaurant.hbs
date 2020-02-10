@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/style/app.css">
     <link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 </head>
 <body>
 
@@ -35,22 +36,66 @@
                     </div>
                     <hr class="dots2">
                     <div class="imgbottom">
-                        <picture >
-                            <img class="imgsize after" src="assets/images/salads.jpg" alt="img">
-                            <p class="hovertxt">I`m tasty</p>
-                        </picture>
-                        <picture>
-                            <img class="imgsize after" src="assets/images/pencackes.jpg" alt="img">
-                            <p class="hovertxt">I`m tasty</p>
-                        </picture>
-                        <picture>
-                            <img class="imgsize after" src="assets/images/burgerfood.jpg" alt="img">
-                            <p class="hovertxt">I`m tasty</p>
-                        </picture>
-                        <picture>
-                            <img class="imgsize after" src="assets/images/pizza.jpg" alt="img">
-                            <p class="hovertxt">I`m tasty</p>
-                        </picture>
+                        <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <picture >
+                                <img class="imgsize after" src="assets/images/salads.jpg" alt="img">
+                                <p class="hovertxt">I`m tasty</p>
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img class="imgsize after" src="assets/images/pencackes.jpg" alt="img">
+                                <p class="hovertxt">I`m tasty</p>
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img class="imgsize after" src="assets/images/burgerfood.jpg" alt="img">
+                                <p class="hovertxt">I`m tasty</p>
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img class="imgsize after" src="assets/images/pizza.jpg" alt="img">
+                                <p class="hovertxt">I`m tasty</p>
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture >
+                                <img class="imgsize after" src="assets/images/salads.jpg" alt="img">
+                                <p class="hovertxt">I`m tasty</p>
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img class="imgsize after" src="assets/images/pizza.jpg" alt="img">
+                                <p class="hovertxt">I`m tasty</p>
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img class="imgsize after" src="assets/images/burgerfood.jpg" alt="img">
+                                <p class="hovertxt">I`m tasty</p>
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img class="imgsize after" src="assets/images/burgerfood.jpg" alt="img">
+                                <p class="hovertxt">I`m tasty</p>
+                            </picture>
+                        </div>
+                    </div>
+                <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+                        
+                        
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -58,6 +103,7 @@
 
         
         {{> partials/footer}}
-    </section>    
+    </section> 
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>   
     </body>
 </html>

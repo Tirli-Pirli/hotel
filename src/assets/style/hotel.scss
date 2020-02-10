@@ -34,7 +34,8 @@
     .imgbottom {
         @include imgBottom;
             .swiper-slide {
-                margin: 0px;
+                display: flex;
+                justify-content: center;
                 img {
                     width: 200px;
                     height: 130px;

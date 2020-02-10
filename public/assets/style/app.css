@@ -1,3 +1,7 @@
+@media (max-width: 1060px) {
+  .container .containerOpacity .inputs {
+    width: 60%; } }
+
 @media (max-width: 960px) {
   .container {
     display: flex;
@@ -19,7 +23,7 @@
       .container .containerOpacity .inputs {
         flex-direction: row;
         justify-content: space-between;
-        width: 58%; }
+        width: 73%; }
         .container .containerOpacity .inputs input {
           border-top: 1px solid #069ec0;
           border-bottom: 0;
@@ -52,6 +56,18 @@
         .container .containerOpacity .btn button {
           width: 100%;
           margin-top: 10px; } }
+
+@media (max-width: 560px) {
+  .container .containerOpacity {
+    width: 61%; }
+    .container .containerOpacity .inputs {
+      width: 72%; } }
+
+@media (max-width: 520px) {
+  .container .containerOpacity {
+    width: 72%; }
+    .container .containerOpacity .inputs {
+      width: 72%; } }
 
 @media (max-width: 320px), (max-width: 370px), (max-width: 420px) {
   .container .containerOpacity {
@@ -121,7 +137,6 @@
     align-items: center;
     text-align: center; }
   .container .containerRest .contentRest .imgbottom {
-    flex-direction: column;
     align-items: center; }
     .container .containerRest .contentRest .imgbottom .imgsize {
       padding-bottom: 10px; } }
@@ -153,7 +168,7 @@
   .container .containerCont .contentCont .form--map {
     flex-direction: column;
     align-items: center; }
-    .container .containerCont .contentCont .form--map form {
+    .container .containerCont .contentCont .form--map form, .container .containerCont .contentCont .form--map iframe {
       width: 300px; } }
 
 .hero {
@@ -444,7 +459,8 @@
     display: flex;
     justify-content: space-between; }
     .containerHotel .imgbottom .swiper-slide {
-      margin: 0px; }
+      display: flex;
+      justify-content: center; }
       .containerHotel .imgbottom .swiper-slide img {
         width: 200px;
         height: 130px;
@@ -492,12 +508,15 @@
       display: flex;
       justify-content: space-between;
       cursor: pointer; }
+      .containerRest .contentRest .imgbottom .swiper-container .swiper-slide .swiper-slide-active {
+        width: 150px; }
       .containerRest .contentRest .imgbottom .imgsize {
         width: 185px;
         height: 135px; }
       .containerRest .contentRest .imgbottom picture {
         position: relative;
-        display: flex; }
+        display: flex;
+        justify-content: center; }
         .containerRest .contentRest .imgbottom picture .hovertxt {
           position: absolute;
           opacity: 0;
@@ -510,7 +529,8 @@
           justify-content: center;
           font-size: 30px;
           background: rgba(0, 0, 0, 0.5);
-          width: 100%;
+          width: 185px;
+          height: 136px;
           transition: 0.4s ease-in-out; }
       .containerRest .contentRest .imgbottom picture:hover .hovertxt {
         opacity: 1; }
@@ -621,11 +641,12 @@
       margin-bottom: 40px; }
     .containerCont .contentCont .form--map {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      padding-bottom: 20px; }
       .containerCont .contentCont .form--map form {
         display: flex;
         flex-direction: column;
-        width: 400px; }
+        width: 350px; }
         .containerCont .contentCont .form--map form input {
           width: 100%;
           padding-top: 6px;
@@ -642,11 +663,12 @@
         .containerCont .contentCont .form--map form .largeInput {
           padding-bottom: 100px;
           box-sizing: border-box; }
-      .containerCont .contentCont .form--map .googlemap {
-        width: 300px;
-        height: 200px; }
+      .containerCont .contentCont .form--map iframe {
+        width: 350px;
+        height: 240px; }
     .containerCont .contentCont .subbtn {
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 20px; }
       .containerCont .contentCont .subbtn a {
         text-decoration: none; }
         .containerCont .contentCont .subbtn a span {
